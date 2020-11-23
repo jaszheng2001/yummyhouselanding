@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    overflow: hidden;
+    height: 100%;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+}
+
+p{
+    font-family: 'Raleway', sans-serif; 
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.btn{
+    border: none;
+    padding: 15px 25px;
+    background-color: #F77272;
+    color:#fff;
+    font-size: 1rem;
+    font-family: 'Ubuntu', sans-serif;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.btn:hover{
+    background-color: #FF6666;
+    font-size: 1.1rem;
+}
+
+
+.div-pad{
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+body{
+    overflow: auto;
+    height: 100%;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #333;
+}
+
+.tableizer-table {
+    display: flex;
+    font-size: .75rem;
+    font-family: 'Ubuntu', sans-serif;
+    border: none;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 2px #ff6666;
+    border-radius: 5px;
+    justify-content: center;
+    width: 98%;
+    height: 100%;
+} 
+
+.tableizer-table td {
+    padding: 4px;
+    color: #ffffff;
+}
+.tableizer-table tr td:nth-child(2){
+    text-align: end;
+}
+.tableizer-table tr td:nth-child(3){
+    text-align: end;
+}
+.tableizer-table th {
+    background-color: #ff6666; 
+    font-weight: bold;
+    border: none;
+    padding: 10px;
+}
+
+.menu-grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    line-height: 9px;
+    width: 1400px;
+    margin: 20px 20px;
+}
+
+.menu-header{
+    color: #ff6666;
+}

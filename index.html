@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yummy House Chinese & Thai Cuisine</title>
+    <meta name="description" content="Yummy House is located in Flushing, NY proudly offering high quality chinese food since 2005. Order for delivery or pickup, View our menu"> 
+    <link rel="icon" 
+      type="image/png" 
+      href="images/yummyhouselogo.png">
+      <link rel="stylesheet" href="style.css">
+      <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Montserrat:wght@300;400;500;600;700;800;900&family=Ubuntu:wght@300;400;500&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,400&family=Yesteryear&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+      <script src="https://kit.fontawesome.com/035903f4b4.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- NAV -->
+    <nav class="div-pad" id="home">
+        <div class="logo">
+            <a href="#"><img src="images/yummyhouselogo-y.png" alt="logo"></a>
+            <a href="#">Yummy House</a>
+        </div>
+        <div class="nav-burger" onclick="navControl()">
+            <i class="far fa-bars fa-lg"></i>
+        </div>
+        <div id="nav-link">
+            <ul>
+                <li><a href="#home" id="nav-active">Home</a></li>
+                <li><a href="#about" id="nav-active" >About<a></li>
+                <li><a href="#menu" id="nav-active">Menu</a></li>
+                <li><a href="#contact" id="nav-active">Contact</a></li>
+        </div>
+    </nav>
+    <div id="mobile-nav-link">
+        <ul>
+            <li onclick="closeNav()"><a href="#home" id="nav-active">Home</a></li>
+            <li onclick="closeNav()"><a href="#about" id="nav-active" >About<a></li>
+            <li onclick="closeNav()"><a href="#menu" id="nav-active">Menu</a></li>
+            <li onclick="closeNav()"><a href="#contact" id="nav-active">Contact</a></li>
+    </div>
+    <!-- MAIN -->
+    <section id="main" class="div-pad">
+        <div class="main-header">
+            <h1>Yummy House</h1>
+            <p>Chinese and Thai Cuisine for Less</p>
+            <div class="btn-ctn"><a href="" class="btn order-btn">Order Online</a></div>
+            <p style="font-family: Montserrat, sans-serif; font-size: 1rem; color:white;">(Coming Soon)</p>
+        </div>
+    </section>
+    <!-- About Us-->
+    <section id="about" class="div-pad">
+        <div class="about-row1">
+            <div class="about-grid-item about-desc">
+                <h1>ABOUT <span>Yummy House</span></h1>
+                <hr>
+                <h2>High Quality Chinese and Thai Cuisine</h2>
+                <p>Yummy House is located in Flushing, NY proudly offering high quality chinese food since 2005. We're committed to provide excellent food and service in our community. Conveniently located one block from Flushing Hospital, come in and grab a quick bite. Or you can give us a call for free delivery for orders over $7, other restrictions may apply. In addition, we also provide catering service.</p>
+            </div>
+            <div class="about-grid-item">
+                <img src="images/index.png" alt="Lunch Special">
+            </div>
+        </div>
+        <br>
+        <hr>
+        <div class="about-row2">
+            <div class="about-grid-item">
+                <i class="fal fa-hat-chef fa-xl"></i>
+                <h2>OUR STAFF</h2>
+                <p>Our staffs are exceptionally trained with multiple years of experience and well certified in many aspects, including food protection. They're passionate about what they do and work to ensure our customer's satisfaction. 
+                </p>
+            </div>
+            <div class="about-grid-item">
+                <i class="far fa-soup"></i>
+                <h2>OUR FOOD</h2>
+                <p>
+                    Our ingredients are sourced locally to ensure freshness of our food. Our relationship with our vendors allow us to source our ingredients at lower cost without sacrificing on quality. Additionally, we're able to cater to your taste bud on most cuisines.
+                </p>
+             </div>
+             <div class="about-grid-item">
+                <i class="far fa-concierge-bell"></i>
+                <h2>CATERING</h2>
+                <p>Do you have a big event or gathering comming up? Whether the event is a Halloween party, birthday party, or an event, we can provide for them. Contact us for more details to learn more about what we offer!
+                </p>
+             </div>
+        </div>
+    </section>
+
+    <!-- Menu -->
+    <section id="menu">
+        <div class="menu-content">
+            <h2>VIEW OUR MENU</h2>
+            <a href="menu.html">MENU</a>
+        </div>
+    </section>
+    <!-- Contact-->
+    <section id="contact" class="div-pad">
+        <div class="location-info">
+            <h1>STAY IN TOUCH</h1>
+            <h2>Visit us</h2>
+            <p>144-20 45th Ave,<br>
+                Flushing, NY 11355
+            </p>
+            <br>
+            <h2>Contact</h2>
+            <p>718-359-2588 <br>
+            718-961-3094</p>
+            <br>
+            <h2>Hours of Operations</h2>
+            <p>Monday-Sunday: <br>
+            11:00 AM - 9:00 PM <br>
+            We're closed on Thanksgiving!
+        </p>
+        </div>
+        <div class="deliver-map">
+            <iframe src="https://www.google.com/maps/d/u/0/embed?mid=16YpX1uUx5k3BHzD9NekLIUECRpBffw0M" width="540" height="405"></iframe>
+        </div>
+
+        <div class="deliver-map-mobile">
+            <iframe src="https://www.google.com/maps/d/u/0/embed?mid=16YpX1uUx5k3BHzD9NekLIUECRpBffw0M" width="300" height="225"></iframe>
+        </div>
+    </section>
+    <div class="btn-mobile-cont">
+        <div class="btn" id="call">
+            <a href="callto:718-359-2588">
+                <i class="fas fa-phone"></i>
+                Call Us</a>
+        </div>
+        <div class="btn" id="dir"><a href="https://www.google.com/maps/place/144-20+45th+Ave,+Queens,+NY+11355/@40.7546433,-73.8144409,16z/data=!4m6!1m3!3m2!1s0x89c2603e40f65fb1:0x10508e6fbc850714!2s144-20+45th+Ave,+Queens,+NY+11355!3m1!1s0x89c2603e40f65fb1:0x10508e6fbc850714">
+            <i class="fas fa-location-arrow"></i>
+                Directions</a></div>        
+        </div>
+    </div>
+    
+    <footer>
+        <p> &copy 2020 New Yummy House Inc. All Rights Reserved | Designed by Jason Zheng </p>
+    </footer>
+</body>
+<script>
+    var navOpen = false;
+    function displayNav(){
+        document.getElementById("mobile-nav-link").style.display = "block";
+        document.getElementById("mobile-nav-link").style.position = "sticky";
+        document.getElementById("mobile-nav-link").style.top = "70px";
+        document.getElementById("mobile-nav-link").style.transition = "all 0.3s ease-out 1s";
+        navOpen = true;
+    }
+
+    function closeNav(){
+        document.getElementById("mobile-nav-link").style.
+        display = "none";
+        document.getElementById("mobile-nav-link").style.transition = "all 0.3s ease-out 1s";
+        navOpen = false;
+    }
+
+    function navControl(){
+        if (!navOpen) {
+            displayNav();
+        }
+        else{
+            closeNav();
+        }
+    }
+</script>
+</html>
